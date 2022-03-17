@@ -1,14 +1,15 @@
 <html> 
 <body> 
 <form name="form1" method="post" action="insert.php">
-UserName: &nbsp;<br><input type="text" name="textusername"><br><br>
-Password: <br><input type="text" name="textpassword"><br><br>
-Email: <br><input type="text" name="textemail"><br><br>
-Name: <br><input type="text" name="textname"><br><br>
-PhoneNumber: <br><input type="text" name="textphonenumber"><br><br>
-Question: <br><input type="text" name="textquestion"><br><br>
-Answer: <br><input type="text" name="textanswer"><br><br>
-<input type="submit" value="insert"> 
+UserName: &nbsp;<br><input type="text" name="textusername" required placeholder="Username"><br><br>
+Password: <br><input type="password" name="textpassword" required placeholder="Password"><br><br>
+Email: <br><input type="text" name="textemail" required placeholder="Email"><br><br>
+Name: <br><input type="text" name="textname" required placeholder="Name"><br><br>
+PhoneNumber: <br><input type="text" name="textphonenumber" required placeholder="PhoneNumber" minlength="10" maxlength="10"><br><br>
+Question: <br><input type="text" name="textquestion" required placeholder="Question"><br><br>
+Answer: <br><input type="text" name="textanswer" required placeholder="Answer"><br><br>
+<input type="submit" value="insert">
 </form> 
+<form><input type="submit" formaction="index.html" value="Home"></form>
 </body> 
 </html>

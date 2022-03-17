@@ -23,6 +23,6 @@ while($data = mysqli_fetch_array($result))
 	echo "</tr>";
 }
 echo "</table>";
-echo "<a href=insert.html>insert new data</a>";
+echo "<a href=login.html>Go to login</a>";
 mysqli_close($link);
 ?> 

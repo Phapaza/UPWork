@@ -12,7 +12,7 @@ if(!$link)
 {
 	exit("cannot connect database");
 }
-$sql = "INSERT INTO main VALUES ('','$username','$pas1','$email','$name','$phonenumber','$question','answer')";
+$sql = "INSERT INTO main VALUES ('','$username','$pas1','$email','$name','$phonenumber','$question','$answer')";
 //echo $sql;
 echo "<br>";
 $result = mysqli_query($link,$sql);
